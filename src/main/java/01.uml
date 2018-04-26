@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="301.0">View.CasierView</node>
+    <node x="298.0" y="301.0">Controler.Controller</node>
+    <node x="0.0" y="153.0">Model.ExporterFactory</node>
+    <node x="129.0" y="449.0">Model.Casier</node>
+    <node x="254.0" y="449.0">Controler.Main</node>
+    <node x="374.0" y="449.0">Model.Bilet</node>
+    <node x="344.0" y="153.0">View.RegisterView</node>
+    <node x="150.0" y="301.0">View.LoginView</node>
+    <node x="154.0" y="227.0">Model.AdminDAO</node>
+    <node x="144.0" y="375.0">View.MyModel</node>
+    <node x="0.0" y="79.0">Model.CsvExporter</node>
+    <node x="175.0" y="153.0">Model.SpectacolDAO</node>
+    <node x="0.0" y="375.0">Model.Spectacol</node>
+    <node x="308.0" y="227.0">Model.CasierDAO</node>
+    <node x="288.0" y="375.0">Model.BiletDAO</node>
+    <node x="0.0" y="227.0">View.AdminView</node>
+    <node x="289.0" y="0.0">View.AdminProfileView</node>
+    <node x="0.0" y="449.0">Model.Admin</node>
+    <node x="130.0" y="79.0">Model.JsonExporter</node>
+    <node x="75.5" y="0.0">Model.Exporter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.CsvExporter" target="Model.Exporter">
+      <point x="0.0" y="-14.5" />
+      <point x="55.0" y="54.0" />
+      <point x="98.25" y="54.0" />
+      <point x="-22.75" y="14.5" />
+    </edge>
+    <edge source="Model.JsonExporter" target="Model.Exporter">
+      <point x="0.0" y="-14.5" />
+      <point x="187.0" y="54.0" />
+      <point x="143.75" y="54.0" />
+      <point x="22.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="189.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
